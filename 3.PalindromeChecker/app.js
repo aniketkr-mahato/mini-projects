@@ -9,11 +9,12 @@ function check() {
     const reverse = reverseString(value)
 
     if (value === reverse) {
-        alert("P A L I N D R O M E");
-        // body.style.backgroundColor = 'green'
+        document.body.style.backgroundColor = "green"
+        // alert("P A L I N D R O M E")
     }
     else {
-        alert("Not today!")
+        document.body.style.backgroundColor = "red"
+        // alert("Not today!")
     }
 
     // clears the input box after
